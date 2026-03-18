@@ -56,7 +56,7 @@ Demographics (Q9 – Q13)
 
 Imported the raw CSV into Power BI.
 
-Used Power Query to:
+**Used Power Query to:**
 
 Remove unnecessary metadata (empty rows, duplicates).
 

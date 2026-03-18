@@ -1,66 +1,100 @@
 # Data Professional Survey Dataset
 
-This repository contains a dataset collected from a survey of data professionals. The dataset includes various demographic and career-related information of respondents. Additionally, a Power BI dashboard has been created using this dataset to visualize and analyze the data.
+**Data Professional’s Survey Analysis (Power BI)**
 
-## Dataset Description
+Project Type: Data Cleaning • Data Visualization • Dashboard Creation
+Tools: Power BI Desktop (Power Query, DAX, Visualizations)
+Dataset: Data Professionals Survey (CSV)
 
-The dataset consists of the following columns:
+**Project Overview**
 
-**Unique ID**:
+This project analyzes a survey of data professionals to uncover patterns in job roles, tool preferences, career transitions, salary ranges, job satisfaction, and other career‑related metrics. I transformed raw survey data into interactive visuals using Power BI, demonstrating my ability to clean data, create calculated measures, and build exploratory dashboards.
 
-**Email**:
+**Repository Contents**
 
-**Date Taken (America/New_York)**:
+Dashboard/ The Power BI .pbix file containing the interactive dashboard.
 
-**Time Taken (America/New_York)**: 
+Raw Data/ Source survey dataset used in Power BI.
 
-**Browser**:
+README.md  This document.
 
-**OS**:
+**Dataset Description**
 
-**City**:
+The survey dataset includes the following fields:
 
-**Country**:
+Unique ID, Email — Respondent identifiers
 
-**Referrer**:
+Date/Time Taken — When the survey was completed
 
-**Time Spent**:
+Browser, OS — Technical metadata
 
-**Q1 - Which Title Best Fits your Current Role?**:
+City, Country — Geographic metadata
 
-**Q2 - Did you switch careers into Data?**: 
+Survey Questions:
 
-**Q3 - Current Yearly Salary (in USD)**: 
+Job role (Q1)
 
-**Q4 - What Industry do you work in?**: 
+Career switch status (Q2)
 
-**Q5 - Favorite Programming Language**: 
+Salary (Q3)
 
-**Q6 - How Happy are you in your Current Position with the following? (Salary)**:
+Industry (Q4)
 
-**Q6 - How Happy are you in your Current Position with the following? (Work/Life Balance)**: 
+Favorite programming language (Q5)
 
-**Q6 - How Happy are you in your Current Position with the following? (Coworkers)**: 
+Job satisfaction metrics (Q6 …)
 
-**Q6 - How Happy are you in your Current Position with the following? (Management)**:
+Difficulty breaking into data (Q7)
 
-**Q6 - How Happy are you in your Current Position with the following? (Upward Mobility)**:
+Job search priorities (Q8)
 
-**Q6 - How Happy are you in your Current Position with the following? (Learning New Things)**: 
+Demographics (Q9 – Q13)
 
-**Q7 - How difficult was it for you to break into Data?**: 
+**🛠 What I Did**
 
-**Q8 - If you were to look for a new job today, what would be the most important thing to you?**: 
+**Data Cleaning & Preparation**
 
-**Q9 - Male/Female?**:
+Imported the raw CSV into Power BI.
 
-**Q10 - Current Age**:
+Used Power Query to:
 
-**Q11 - Which Country do you live in?**:
+Remove unnecessary metadata (empty rows, duplicates).
 
-**Q12 - Highest Level of Education**:
+Standardize text fields (e.g., unify job role labels).
 
-**Q13 - Ethnicity**:
+Convert numeric columns (e.g., Salary) to the correct data type.
+
+This ensured the data could be used for consistent calculations and visuals.
+
+**Data Modeling & Calculations**
+
+Created the following key calculated measures using DAX:
+
+Count of Respondents
+
+Average/Median Salary
+
+Distribution of Job Roles
+
+Satisfaction Scores (e.g., salary happiness, work/life balance)
+
+Tool Preference Counts
+
+Each measure supports an interactive visual in the dashboard.
+
+**Visualizations & Dashboard**
+
+Designed an interactive Power BI dashboard with:
+
+Bar/Column Charts — Job titles, industries, tool usage
+
+Pie/Donut Charts — Career switching, job search priorities
+
+Cards & KPIs — Total respondents, average age, average salary
+
+Treemaps/Maps — Geographic distribution
+
+These visuals let users explore patterns and compare groups across dimensions.
 
 ## Power BI Dashboard
 
